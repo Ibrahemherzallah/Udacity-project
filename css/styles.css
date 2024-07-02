@@ -11,6 +11,7 @@
 @media only screen and (max-device-width: 550px) {
   #navbar__list {
     flex-wrap: wrap;
+    /* margin-bottom: 100px; */
   }
 }
 
@@ -97,6 +98,10 @@ section {
     top: 0;
     width: 100%;
     z-index: 5;
+}
+ul li .active {
+  border: 1px solid red;
+  border-radius: 10px;
 }
 nav ul {
   display: flex;
